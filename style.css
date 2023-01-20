@@ -64,6 +64,7 @@ main {
     width: 90%;
     max-width: 1200px;
     /* Exercise 9 */
+    margin: auto;
 
 
 }
@@ -73,17 +74,20 @@ main {
     background-color: #ece4d9;
     border: solid 4px #664b3d;
     /* Exercise 7 */
+    margin: 0 1% 40px 1%;
+}
+    
+    h3,p {
+        padding: 0 30px;
+    }
   
     /* Exercise 8 */
-   
+.machine{
+ 
+    display: block;
+    vertical-align: top;
 
 }
-
-/* Exercise 8 */
-
-
-
-
 
 footer {
     border-top: double 4px #664b3d;
