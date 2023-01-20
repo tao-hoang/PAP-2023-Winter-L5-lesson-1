@@ -1,6 +1,8 @@
-/* Exercise 5 
+/* Exercise 5 */
 
-*/
+*{
+    border: solid 1px black;
+}
 
 html {
     height: 100%;
@@ -14,17 +16,23 @@ body {
     background-size: cover;
     line-height: 1.5rem;
     /* Exercise 1 */
-   
+    font-family: 'Libre Franklin', sans-serif;
+    color: #664b3d;
+    text-align: center;
 
     /* Exercise 4 */
-    
+    margin: 0;
 }
 
 /* Exercise 2 */
-
+#header {
+    color: red;
+}
 
 /* Exercise 3 */
-
+#header {
+    color:#664b3d;
+}
 
 img {
     max-width: 100%;
