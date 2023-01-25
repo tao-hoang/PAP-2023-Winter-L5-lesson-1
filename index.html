@@ -149,6 +149,28 @@
 
     <script>
         //Part 3 Javascript sorting function
+        const machine= document.querySelectorAll('.machine');
+        const anchor= document.querySelectorAll('a');
+        console.log (machine, anchor);
+        
+       function sort(event) {
+        let clickeda = event.target.id;
+        machine.forEach( function (card) {
+            let cardClass = card.classList;
+            if(cardClass.contains(clickeda)) {
+                card.style.display = "block"
+            } else {
+                card.style.display = "none"
+            }});
+        
+        }
+
+        anchor.forEach(function(atag){
+            atag.addEventListener('click', sort)
+        });
+
+
+
 
     </script>
 </body>
